@@ -1,0 +1,25 @@
+[
+  {"response_type":  "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn code' on Google search",
+    "required_words": ["learn", "code", "apps"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I am great! Thanks fr asking",
+    "required_words": ["how", "are", "you"]
+  }
+]
